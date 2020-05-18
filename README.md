@@ -1,5 +1,5 @@
 # Machine learning image classifier using PyTorch
-This is an image classifier for this dataset: http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html. It runs from a command line using argparse and pytorch. 
+This is an image classifier for this dataset: http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html. It runs from the command line using argparse and pytorch. 
 
 The first file, train.py, trains a classifier (densenet or vgg) and saves the trained model as a checkpoint. The second file, predict.py, uses the saved model to predict the class for an input image. 
 
@@ -15,6 +15,7 @@ Basic usage:
 python train.py ./flowers/
 ```
 Prints out training loss, validation loss, and validation accuracy as the network trains.
+
 
 Checkpoint saved to model1 directory :
 ```
