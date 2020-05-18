@@ -5,10 +5,11 @@ import argparse
 def train_args():
     
     parser = argparse.ArgumentParser(description = "train and save your model")
+    
     ###positional
     parser.add_argument("image_directory", help = "choose your path" )
-    ###optional
     
+    ###optional    
     parser.add_argument("--save_dir", action="store", default=".", type = str, help = "directory for the trained model")
     
     parser.add_argument("--arch", default = "densenet121", help = "architecture: densenet121 (by default) or vgg11")
