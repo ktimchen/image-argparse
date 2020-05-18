@@ -9,7 +9,9 @@ Help:
 python train.py -h
 
 Basic usage:
+'''
 python train.py ./flowers/
+'''
 Prints out training loss, validation loss, and validation accuracy as the network trains.
 
 Checkpoint saved to model1 directory :
