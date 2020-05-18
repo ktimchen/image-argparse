@@ -6,6 +6,7 @@ def prediction_args():
     ###positional
     parser.add_argument("path_to_image", help = "choose your path" )
     parser.add_argument("checkpoint", help = "choose your stored model")
+    
     ###optional
     parser.add_argument("--top_k", default = 5, type = int, help = "top k classes")
     parser.add_argument("--gpu", default = False, action = "store_true", help = "gpu is False by default")
