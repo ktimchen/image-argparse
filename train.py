@@ -50,9 +50,7 @@ def main():
     valloader = torch.utils.data.DataLoader(val_data, batch_size=64)
     
     
-    #Label mapping
-#     with open(args.category_names, 'r') as f:
-#         cat_to_name = json.load(f)
+
         
     model_type = args.arch
     print(model_type)
