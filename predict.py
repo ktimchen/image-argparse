@@ -79,6 +79,8 @@ def process_image(image):
         image.thumbnail((256, image.size[1]))
     else:
         image.thumbnail((image.size[0], 256))
+        
+    ##### come of these transforms can and should be done via transforms.Compose() 
     
     ########### crop   
     box = ((image.width-224)/2, (image.height-224)/2, (image.width-224)/2 + 224, (image.height-224)/2 + 224 )
