@@ -60,8 +60,7 @@ Uses CUDA for the forward step:
 python predict.py input checkpoint --gpu
 ```
 
-
-<figure class="half" style="display:flex">
-    <img width=30% height=300% src="image_06743.jpg">
-    <img width=50% height=50% src="image.png">
-</figure>
+<p float="left">
+  <img src="image_06743.jpg" width=20.7% />
+  <img src="image.png" width=50% /> 
+</p>
